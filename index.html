@@ -2,9 +2,17 @@
 <html class="no-js" lang="en">
 <head>
   <title>AniStark</title>
-  <?php
-  require_once('sahead.php');
-  ?>
+    <meta charset="utf-8">
+<meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no" name="viewport" />
+  <meta name="description" content="">
+  <link  href="http://fonts.googleapis.com/css?family=Oswald:regular" rel="stylesheet" type="text/css" >
+  <link href='http://fonts.googleapis.com/css?family=Junge' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/fonts/raphaelicons.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="assets/js/libs/modernizr-2.5.2.min.js"></script>
 </head>
 <!--[if lt IE 7]> <body class="ie6 oldies"> <![endif]-->
 <!--[if IE 7]>    <body class="ie7 oldies"> <![endif]-->
@@ -12,9 +20,38 @@
 <!--[if gt IE 8]><!--><body><!--<![endif]-->
 
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-  <?php
-  require_once('saheader.php');
-  ?>
+  <header class="clearfix">
+      <div class="container">
+        <a id="logo" href="index.php">AniStark</a>
+        <ul class="social-icons">
+          <li><a href="http://www.facebook.com/anirudhjoy" class="icon flip">^</a></li>
+          <li><a href="" class="icon">T</a></li>
+          <li><a href="http://www.twitter.com/kranirudha" class="icon">^</a></li>
+        </ul>
+        <nav class="clearfix">
+          <ul role="navigation">
+            <li>
+              <a href="index.php"><span class="icon">S</span>Home</a>
+            </li>
+            <li>
+              <a href="portfolio.php"><span class="icon">Û</span>Portfolio</a>
+            </li>
+            <li>
+              <a href="page.php"><span class="icon">E</span>Page</a>
+            </li>
+            <li>
+              <a href="blog.php"><span class="icon">E</span>Blog</a>
+            </li>
+            <li>
+             <a href="forum.php"><span class="icon">F</span>Forum</a>
+             </li>
+            <li>
+              <a href="contact.php"><span class="icon">M</span>Contact Me</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+  </header>
    <section role="banner">
        <hgroup>
            <h1>Welcome to Kumar Anirudha's personal Website</h1>
@@ -84,9 +121,12 @@
          <li><a href=""><img src="http://flickholdr.com/165/65/levi" alt="" ></a></li>
        </ul>
    </section>
-  <?php
-  require_once('safooter.php');
-  ?>
+  <footer role="contentinfo">
+      <p>
+        <span class="left">Kumar Anirudha &copy; - 2014 | Released under Public Distribution License. <a href="#">Goto Top</a></span>
+        <a href="index.php">HOME</a> | <a href="portfolio.php">PORTFOLIO</a> | <a href="page.php">PAGE</a> |  <a href="blog.php">BLOG</a> | <a href="contact.php">CONTACT US</a>
+      </p>
+  </footer>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="assets/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
   <script src="assets/js/script.js"></script>
