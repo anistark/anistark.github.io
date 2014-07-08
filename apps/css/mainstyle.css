@@ -111,7 +111,7 @@ body {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
+  height: 285px;
   background-color: #202020;
 }
 
@@ -122,8 +122,9 @@ body {
 
 body >
 .footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 code {
