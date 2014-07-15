@@ -13,6 +13,29 @@
 
     <link href="css/mainstyle.css" rel="stylesheet">
 
+    <style type="text/css">
+
+.clock { color:#fff; }
+
+#Date { font-family: Arial, Helvetica, sans-serif; font-size:24px; text-shadow:0 0 5px #00c6ff; }
+
+#point { position:relative; -moz-animation:mymove 1s ease infinite; -webkit-animation:mymove 1s ease infinite; }
+
+@-webkit-keyframes mymove 
+{
+0% {opacity:1.0; text-shadow:0 0 2px #00c6ff;}
+50% {opacity:0; text-shadow:none; }
+100% {opacity:1.0; text-shadow:0 0 2px #00c6ff; }  
+}
+
+@-moz-keyframes mymove 
+{
+0% {opacity:1.0; text-shadow:0 0 2px #00c6ff;}
+50% {opacity:0; text-shadow:none; }
+100% {opacity:1.0; text-shadow:0 0 2px #00c6ff; }  
+}
+
+</style>
 </head>
 
 <body>
@@ -21,18 +44,18 @@
     <div class="row">
         <div class="[ col-xs-12 col-sm-6 col-md-12 ]">
             <h2>AniTech</h2>
-            <p>Imagination to Life</p>
+            <p>Opening Minds</p>
 
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <div class="panel panel-default">
                         <div class="panel-heading clearfix">
                             <i class="icon-calendar"></i>
-                            <h3 class="panel-title">Inspired on the go..</h3>
+                            <h3 class="panel-title">Open your minds</h3>
                         </div>
 
                         <div class="panel-body center-align-text">
-                            b ada blasf basf blasv blabs d
+                            When you open your minds to the impossible, then you can see the improable. 
                         </div>
                     </div>
                 </div>
@@ -81,7 +104,7 @@
                             <li>isha</li>
                             <li>AddressBook</li>
                             <li>KUP</li>
-                            <li>The Eye</li>s
+                            <li>The Eye</li>
                         </ul>
                       </p>
                     </div>
@@ -157,9 +180,22 @@
           <li><a href="#">Support</a></li>
         </ul> 
     </div-->
-    <!--div class="col-xs-6 col-md-4 column">          
-        
-    </div-->
+    <div class="col-xs-6 col-md-4 column">          
+        <div class="container">
+            <div class="clock">
+                <div id="Date"></div>
+
+                <ul>
+                    <li id="hours"> </li>
+                    <li id="point">:</li>
+                    <li id="min"> </li>
+                    <li id="point">:</li>
+                    <li id="sec"> </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
   </div>
 </div>
 </footer>
@@ -167,6 +203,42 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/calendar.js"></script>
 
+    <script type="text/javascript">
+$(document).ready(function() {
+// Create two variable with the names of the months and days in an array
+var monthNames = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ]; 
+var dayNames= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+
+// Create a newDate() object
+var newDate = new Date();
+// Extract the current date from Date object
+newDate.setDate(newDate.getDate());
+// Output the day, date, month and year    
+$('#Date').html(dayNames[newDate.getDay()] + " " + newDate.getDate() + ' ' + monthNames[newDate.getMonth()] + ' ' + newDate.getFullYear());
+
+setInterval( function() {
+    // Create a newDate() object and extract the seconds of the current time on the visitor's
+    var seconds = new Date().getSeconds();
+    // Add a leading zero to seconds value
+    $("#sec").html(( seconds < 10 ? "0" : "" ) + seconds);
+    },1000);
+    
+setInterval( function() {
+    // Create a newDate() object and extract the minutes of the current time on the visitor's
+    var minutes = new Date().getMinutes();
+    // Add a leading zero to the minutes value
+    $("#min").html(( minutes < 10 ? "0" : "" ) + minutes);
+    },1000);
+    
+setInterval( function() {
+    // Create a newDate() object and extract the hours of the current time on the visitor's
+    var hours = new Date().getHours();
+    // Add a leading zero to the hours value
+    $("#hours").html(( hours < 10 ? "0" : "" ) + hours);
+    }, 1000);
+    
+}); 
+</script>
 </body>
 
 </html>
