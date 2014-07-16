@@ -115,6 +115,8 @@ footer {
 
 #Date { font-family: Arial, Helvetica, sans-serif; font-size:24px; text-shadow:0 0 5px #00c6ff; }
 
+#clocklist li { display: inline; }
+
 #point { position:relative; -moz-animation:mymove 1s ease infinite; -webkit-animation:mymove 1s ease infinite; }
 
 @-webkit-keyframes mymove 
