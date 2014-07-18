@@ -179,14 +179,43 @@ i.service-icon {
 
 /* Call to Action */
 
-.call-to-action {
-  color: #ffffff;
-  background: #0a5175;
-  padding: 50px 0;
-}
-
 .call-to-action .btn {
   margin: 10px;
+}
+
+.call-to-action {
+  padding: 50px 0;
+  background: #2980b9 url('../img/backr.png') repeat 0 0;
+  -webkit-animation:10s linear 0s normal none infinite textbuttonbg;
+     -moz-animation:10s linear 0s normal none infinite textbuttonbg;
+    -ms-animation:10s linear 0s normal none infinite textbuttonbg;
+     -o-animation:10s linear 0s normal none infinite textbuttonbg;
+      animation:10s linear 0s normal none infinite textbuttonbg;
+}
+
+@-webkit-keyframes textbuttonbg {
+  from {background-position:0 0;}
+  to {background-position:0 -412px;}
+}
+
+@-moz-keyframes textbuttonbg {
+  from {background-position:0 0;}
+  to {background-position:0 -412px;}
+}
+
+@-ms-keyframes textbuttonbg {
+  from {background-position:0 0;}
+  to {background-position:0 -412px;}
+}
+
+@-o-keyframes textbuttonbg {
+  from {background-position:0 0;}
+  to {background-position:0 -412px;}
+}
+
+@keyframes textbuttonbg {
+  from {background-position:0 0;}
+  to {background-position:0 -412px;}
 }
 
 /* Map */
