@@ -1,307 +1,423 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en-US">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Kumar Anirudha Microsite">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Hi, I am Anirudha</title>
+    <meta name="description" content="Personal website of Kumar Anirudha" />
     <meta name="author" content="Kumar Anirudha">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="MobileOptimized" content="320"/>   
+    <link href="_include/css/bootstrap.min.css" rel="stylesheet">
+    <link href="_include/css/main.css" rel="stylesheet">
+    <link href="_include/css/supersized.css" rel="stylesheet">
+    <link href="_include/css/supersized.shutter.css" rel="stylesheet">
+    <link href="_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+    <link href="_include/css/fonts.css" rel="stylesheet">
+    <link href="_include/css/shortcodes.css" rel="stylesheet">
+    <link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="_include/css/responsive.css" rel="stylesheet">
+    <link href="_include/css/supersized.css" rel="stylesheet">
+    <link href="_include/css/supersized.shutter.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="#">
+    <link rel="apple-touch-icon" href="#">
+    <link rel="apple-touch-icon" sizes="114x114" href="#">
+    <link rel="apple-touch-icon" sizes="72x72" href="#">
+    <link rel="apple-touch-icon" sizes="144x144" href="#">
+    <script src="_include/js/modernizr.js"></script>
+    <!-- Analytics -->
+    <script type="text/javascript">
 
-    <title>Hi, I'm Anirudha</title>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'Insert Your Code']);
+      _gaq.push(['_trackPageview']);
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
 
-    <!-- Add custom CSS here -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- Skill Diagram -->
-    <link href="css/default.css" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Cabin+Sketch:bold" rel="stylesheet" type="text/css" />
-    
-    <link href="css/viewbox.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="css/load.css" />
-
+    </script>
+    <!-- End Analytics -->
 </head>
 
+
 <body>
-    
-    <!-- BOOT -->
-    <div id="pageLoading">
-        <div class="loading">
-            <div class="apple-logo"></div>
-            <div class="spinner"></div>
+
+    <!-- This section is for Splash Screen -->
+    <div class="ole">
+    <section id="jSplash">
+    	<div id="circle"></div>
+    </section>
+    </div>
+    <!-- End of Splash Screen -->
+
+    <!-- Homepage Slider -->
+    <div id="home-slider">	
+        <div class="overlay"></div>
+
+        <div class="slider-text">
+        	<h1>Hii, I am <a>Kumar Anirudha</a></h1>
+            <h1><small>FOSS enthusiast | Freelancer | Foodie | Dreamer | love Travelling | Guitarist@Leisure | Otaku</small><h1>
+        </div>   
+    	
+    	<div class="control-nav">
+            <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
+            <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
+            <ul id="slide-list"></ul>
+            
+            <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
         </div>
     </div>
+    <!-- End Homepage Slider -->
 
-
-    <!-- Side Menu -->
-    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <div id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand"><a href="#">Kumar Anirudha</a>
-            </li>
-            <li><a href="#top">Home</a>
-            </li>
-            <li><a href="#about">Works</a>
-            </li>
-            <li><a href="#skills">Skills</a>
-            </li>
-            <li><a href="#portfolio">AniTech</a>
-            </li>
-            <li><a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </div>
-    <!-- /Side Menu -->
-
-    <!-- top -->
-    <div id="top" class="header">
-        <div class="vert-text">
-            <h1>Kumar Anirudha</h1>
-            <h3>
-                <em>anistark</em> <br />
-                <i class="fa fa-male fa-3x"></i><br />
-                <em>Computer Science and Engineering Grad</em> <br />@<br /> Jalpaguri Government Engineering College</h3>
-                <br />
-                <h4>FOSS enthusiast | Freelancer | Foodie | Dreamer | love Travelling | Guitarist@Leisure | Otaku</h4>
-            <a href="#about" class="btn btn-default btn-lg">Find Out More</a><br />
-        </div>
-    </div>
-    <!-- /top -->
-
-    <!-- Works -->
-    <div id="about" class="intro">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-md-offset-4 text-center">
-                    <h2>Learn <i class="fa fa-refresh"></i> Apply!</h2>
-                    <hr>
-                    <p>I like to keep myself busy. Learning new stuffs never ends and working occasionally on old skills never stops. Most of my projects are open-source and you can find them on my <a href="https://github.com/anistark" target="_blank"><i class="fa fa-github fa-2x"></i> github</a> page.</p>
-                </div>
+    <!-- Header -->
+    <header>
+        <div class="sticky-nav">
+        	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+            
+            <div id="logo">
+            	<a id="goUp" href="#home-slider" title="Kumar Anirudha">AniStark</a>
             </div>
+            <nav id="menu">
+            	<ul id="menu-nav">
+                	<li class="current"><a href="#home-slider">>Home<</a></li>
+                    <li><a href="#work">this.Works()</a></li>
+                    <li><a href="#about">self._About_</a></li>
+                    <li><a href="#social-area">get(social)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Our Work Section -->
+    <div id="work" class="page">
+    	<div class="container">
+        	<!-- Title Page -->
             <div class="row">
-                <div class="col-md-2 col-md-offset-2 text-center">
-                    <div class="service-item">
-                        <i class="service-icon fa fa-html5"></i>
-                        <h4>Web Projects</h4>
-                        <p>I have worked on a number of websites in the past and some are still under active development. <a href="http://www.sristi.org.in/2012/index.php" target="_blank">Sristi</a>, <a href="http://jeclat.in" target="_blank">Jeclat</a> are the few amongst my developed websites.  <a href="http://jolites.in" target="_blank">Jolites</a>, <a href="http://literarysociety.jolites.in" target="_blank">LiterarySociety</a>, <a href="http://coders.jolites.in" target="_blank">Coders</a>, <a href="http://pandulipi.jolites.in/" target="_blank">Pandulipi</a> are still under active development.</p>
-                    </div>
-                </div>
-                <div class="col-md-2 text-center">
-                    <div class="service-item">
-                        <i class="service-icon fa fa-code"></i>
-                        <h4>Softwares and Apps</h4>
-                        <p>I like mostly working with android apps though I've also tried my hands with Firefox Os apps. Here are some of my projects. <a href="https://github.com/anistark/pixie" target="_blank">Pixie</a>,<a href="https://github.com/anistark/twil" target="_blank">Twil</a>, <a href="https://github.com/anistark/librarymanagement" target="_blank">LibraryManagementSystem</a>, <a href="https://github.com/anistark/TheEye" target="_blank">The Eye</a>, <a href="https://github.com/anistark/isha-slideshow" target="_blank">Isha</a>, <a href="https://github.com/anistark/kup" target="_blank">KUP</a>, <a href="https://github.com/anistark/imyvoix" target="_blank">ImyVoix</a>, <a href="https://github.com/anistark/ufo" target="_blank">UFO</a>, <a href="https://github.com/anistark/AddressBook" target="_blank">AddressBook</a>, <a href="https://github.com/anistark/Rezolutie" target="_blank">Rezolutie</a>.</p>
-                    </div>
-                </div>
-                <div class="col-md-2 text-center">
-                    <div class="service-item">
-                        <i class="service-icon fa fa-pencil-square-o"></i>
-                        <h4>Designing</h4>
-                        <p>A passtime like none else is when you're sitting idle and you got a scratch pad on your lap. In my case, it's generally one of the digital scratchpad. All my designs can be found <a href="http://anirudhastark.wordpress.com/disenos/" target="_blank">here</a>.</p>
-                    </div>
-                </div>
-                <div class="col-md-2 text-center">
-                    <div class="service-item">
-                        <i class="service-icon fa fa-star-o"></i>
-                        <h4>What Else!</h4>
-                        <p>Small-time PC Gamer! Leisure-time guitarist! Otaku by heart!<br /> Amongst sports, I play Soccer, Badminton, etc. Here's my <a href="http://anirudhastark.wordpress.com/" target="_blank">wordpress blog</a> for those who like to read. For tech-enthusiasts, here's <a href="/blog/" target="_blank">my tech blog</a></p>
+                <div class="span12">
+                    <div class="title-page">
+                        <h2 class="title">Work on</h2>
+                        <h3 class="title-description">Only a few are shown here. Check Out All My Projects on <a href="https://github.com/anistark">Github</a>.</h3>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- /Works -->
+            <!-- End Title Page -->
+            
+            <!-- Portfolio Projects -->
+            <div class="row">
+            	<div class="span3">
+                	<!-- Filter -->
+                    <nav id="options" class="work-nav">
+                        <ul id="filters" class="option-set" data-option-key="filter">
+                            <li><a href="#filter" data-option-value="*" class="selected">All Projects</a></li>
+                            <li><a href="#filter" data-option-value=".web">Websites</a></li>
+                            <li><a href="#filter" data-option-value=".android">Android</a></li>
+                            <li><a href="#filter" data-option-value=".misc">Miscellaneous</a></li>
+                        </ul>
+                    </nav>
+                    <!-- End Filter -->
+                </div>
+                
+                <div class="span9">
+                	<div class="row">
+                    	<section id="projects">
+                        	<ul id="thumbs">
+    							<!-- Item Project and Filter Name -->
+                            	<li class="item-thumbs span3 web">
+                                	<a class="hover-wrap" data-fancybox-group="gallery" title="Sristi" href="http://2012.sristi.org.in/" target="_blank">
+                                    	<span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb">Visit Sristi 2012-13</span>
+                                    </a>
+                                    <img src="_include/img/work/thumbs/sristi.jpg" alt="Sristi 2012-13">
+                                </li>
+                            	<!-- End Item Project -->
+    							<!-- Item Project and Filter Name -->
+                            	<li class="item-thumbs span3 web">
+                                	<a class="hover-wrap" data-fancybox-group="gallery" title="Jeclat 2014" href="http://2014.jeclat.in/home.php">
+                                    	<span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb">Visit Jeclat 2014</span>
+                                    </a>
+                                    <img src="_include/img/work/thumbs/jeclat.png" alt="Jeclat 2014">
+                                </li>
+                            	<!-- End Item Project -->
+                                
+    							<!-- Item Project and Filter Name -->
+                            	<li class="item-thumbs span3 android">
+                                	<a class="hover-wrap" data-fancybox-group="gallery" title="The Eye" href="https://github.com/anistark/TheEye">
+                                    	<span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb">View in github</span>
+                                    </a>
+                                    <img src="_include/img/work/thumbs/eye.jpg" alt="The Eye Android App">
+                                </li>
+                            	<!-- End Item Project -->
+                                
+                                <!-- Item Project and Filter Name -->
+                                <li class="item-thumbs span3 misc">
+                                    <a class="hover-wrap" data-fancybox-group="gallery" title="Rezolutie" href="http://anistark.github.io/Rezolutie/">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb">Visit Rezolutie App page</span>
+                                    </a>
+                                    <img src="_include/img/work/thumbs/rezolutie.jpg" alt="Rezolutie Firefox Os App">
+                                </li>
+                                <!-- End Item Project -->
 
-    <!-- skills -->
-    <div id="skills" class="services">
-        <div class="container">
-            <h2>Skills</h2>
-            <p class="lead">
-                <div id="content">
-                    <div class="legend">
-                        <div class="skills">
-                            <ul>
-                                <li class="jq">JavaScript</li>
-                                <li class="css">CSS3</li>
-                                <li class="html">HTML5</li>
-                                <li class="php">PHP</li>
-                                <li class="sql">MySQL</li>
-                                <li class="python">Python</li>
-                                <li class="android">Android</li>
+    							<!-- Item Project and Filter Name -->
+                            	<li class="item-thumbs span3 web">
+                                	<a class="hover-wrap" data-fancybox-group="gallery" title="Pandulipi" href="http://pandulipi.jolites.in/">
+                                    	<span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb">Visit Pandulipi</span>
+                                    </a>
+                                    <img src="_include/img/work/thumbs/pandulipi.png" alt="Pandulipi">
+                                </li>
+                            	<!-- End Item Project -->
+
+                                <!-- Item Project and Filter Name -->
+                                <li class="item-thumbs span3 android">
+                                    <a class="hover-wrap" data-fancybox-group="gallery" title="KUP" href="https://github.com/anistark/kup">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb">View in github</span>
+                                    </a>
+                                    <img src="_include/img/work/thumbs/kup.jpg" alt="Kinetic Unplugged Player Android app">
+                                </li>
+                                <!-- End Item Project -->
+
+                                <!-- Item Project and Filter Name -->
+                                <li class="item-thumbs span3 web">
+                                    <a class="hover-wrap" data-fancybox-group="gallery" title="Jolites" href="http://jolites.in/">
+                                        <span class="overlay-img"></span>
+                                        <span class="overlay-img-thumb">Visit Jolites</span>
+                                    </a>
+                                    <img src="_include/img/work/thumbs/jolites.png" alt="Jolites">
+                                </li>
+                                <!-- End Item Project -->
                             </ul>
-                        </div>  
+                        </section>
+                        
+                	</div>
+                </div>
+            </div>
+            <!-- End Portfolio Projects -->
+        </div>
+    </div>
+    <!-- End Our Work Section -->
+
+    <!-- About Section -->
+    <div id="about" class="page-alternate">
+    <div class="container">
+        <!-- Title Page -->
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title">About Me</h2>
+                    <h2 class="title-description"><small><i>Dreams, Perception and Curiousity defines a person.</i></small></h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Title Page -->
+        
+        <!-- People -->
+        <div class="row">
+        	
+            <!-- Start Profile -->
+        	<div class="span4 profile">
+                <div class= "contentskill">
+                	<div class="skillcol">
+                        <h2>Skillset</h2>
+                        <ul id="skill">
+                            <li><span class="expand html5"></span><em>HTML 5</em></li>
+                            <li><span class="expand css3"></span><em>CSS 3</em></li>
+                            <li><span class="expand php"></span><em>PHP</em></li>
+                            <li><span class="expand javascript"></span><em>Javascript</em></li>
+                            <li><span class="expand python"></span><em>Python</em></li>
+                            <li><span class="expand android"></span><em>Android</em></li>
+                            <li><span class="expand android"></span><em>MySQL</em></li>
+                            <li><span class="expand android"></span><em>Mongodb</em></li>
+                        </ul>
                     </div>
-                    <div id="diagram"></div>
-                </div>
-            </p>
-        </div>
-    </div>
-    <!-- /skills -->
-
-    <!-- Callout -->
-    <div class="callout">
-        <div class="vert-text">
-            <h1>anistark Profiles Hub:</h1><br />
-            <img src="img/anistark.png" class="img-portfolio" height="150" width="auto">
-            <a href="http://about.me/kumaranirudha" class="btn btn-lg btn-default">About Me</a><br /><br />
-            <a href="https://mozillians.org/en-US/u/anistark/" class="btn btn-lg btn-primary">Mozillian</a>
-            <a href="https://developer.mozilla.org/en-US/profiles/anistark" class="btn btn-lg btn-primary">MDN</a>
-            <a href="https://wiki.mozilla.org/User:Anistark" class="btn btn-lg btn-primary">Mozilla Wiki</a>
-            <a href="https://anistark.makes.org/" class="btn btn-lg btn-primary">Mozilla WebMaker</a>
-            <a href="https://www.transifex.com/accounts/profile/anistark/" class="btn btn-lg btn-primary">Transfix</a>
-            <a href="https://support.mozilla.org/en-US/user/992280" class="btn btn-lg btn-primary">Mozillia Support</a><br /><br />
-            <a href="https://wiki.python.org/moin/KumarAnirudha" class="btn btn-lg btn-primary">Python Wiki</a>
-            <a href="https://en.wikipedia.org/wiki/User:Anistark" class="btn btn-lg btn-primary">Wikipedia</a>
-            <a href="http://www.quora.com/Kumar-Anirudha-1" class="btn btn-lg btn-primary">Quora</a>
-            <a href="http://www.hackerearth.com/users/anistark/" class="btn btn-lg btn-primary">HackerEarth</a><br /><br />
-        </div>
-    </div>
-    <!-- /Callout -->
-
-    <!-- Portfolio -->
-    <div id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-md-offset-4 text-center">
-                    <h1>AniTech</h1><!--img class="img-responsive" src="img/at.png"-->
-                    <h2><i>Imagination to Life</i></h2>
-                    <hr>
                 </div>
             </div>
-            <div class="main">
-                <div class="view fourth-effect col-md-4 col-md-offset-2">
-                    <a href="apps/peoplesearch.html"><img src="img/ps.jpg" /></a>
-                    <div class="mask"></div>
+            <!-- End Profile -->
+            
+            <!-- Start Profile -->
+        	<div class="span4 profile"><br />
+                <h2 class="profile-name">Writer Within</h2>
+                <p class="profile-description">Always wanted to be writer. Unfortunately not one of my strong suits. Still, I keep trying. So, what started as scribble in notebooks, ended up as blogs online. Sometimes drifting away to neverland has it's own advantages. For instance, we don't need to keep track on our time in there. A place of calmness and serenity that surrounds you and nothing else. I believe there is a writer within everyone. Mine seems to be residing too deep within.<br /><br />
+                My Tech-blog can be found <a href="/blog" target="_blank">here</a>. For my more non-geeky posts, Read <a href="http://anirudhastark.wordpress.com/" target="_blank">Insights to the Camp</a></p>
+                	
+                <div class="social">
+                	<ul class="social-icons">
+                    	<li><a href="http://anirudhastark.wordpress.com/" target="_blank"><i class="font-icon-social-wordpress"></i></a></li>
+                    </ul>
                 </div>
             </div>
+            <!-- End Profile -->
+            
+            <!-- Start Profile -->
+        	<div class="span4 profile">
+                <img src="_include/img/profile/anistark.jpg" alt="Kumar Anirudha" width="200px" />
+                <h3 class="profile-name">Kumar Anirudha</h3>
+                <p class="profile-description"><h2><small>Computer Science Engineer</small></h2>
+                College: <a href="http://jgec.in/" target="_blank">Jalpaiguri Government Engineering College</a><br />
+                IRC username: <font color="#29e278"><strong>ani_stark</strong></font><br />
+                View <a href="_include/img/profile/ResumeKumarAnirudha.pdf">My Resume</a><br />
+                Current Status: Freelancing</p>
+                <div class="social">
+                	<ul class="social-icons">
+                        <li><a href="http://www.linkedin.com/pub/kumar-anirudha/26/27/50a" target="_blank"><i class="font-icon-social-linkedin"></i></a></li>
+                        <li><a href="https://github.com/anistark" target="_blank"><i class="font-icon-social-github"></i></a></li>
+                        <li><a href="mailto:anirudhastark@yahoo.com" target="_blank"><i class="font-icon-email"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Profile -->
+            
         </div>
+        <!-- End People -->
     </div>
-    <!-- /Portfolio -->
+    </div>
+    <!-- End About Section -->
 
-    <!-- Call to Action -->
-    <div class="call-to-action">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 col-md-offset-3 text-center">
-                    <h3>Kumar Anirudha in gist :</h3>
-                    <i class="fa fa-laptop fa-3x"></i>
-                    <i class="fa fa-music fa-3x"></i>
-                    <i class="fa fa-coffee fa-3x"></i>
-                    <i class="fa fa-cloud fa-3x"></i>
-                    <i class="fa fa-tachometer fa-3x"></i>
-                    <i class="fa fa-compass fa-3x"></i>
-                    <i class="fa fa-camera fa-3x"></i>
-                    <i class="fa fa-gamepad fa-3x"></i>
-                    <i class="fa fa-android fa-3x"></i>
-                    <i class="fa fa-linux fa-3x"></i>
-                    <i class="fa fa-windows fa-3x"></i>
-                    <i class="fa fa-apple fa-3x"></i>
-                    <i class="fa fa-smile-o fa-3x"></i>
+
+    <!-- Contact Section -->
+    <!--div id="contact" class="page">
+    <div class="container">
+        <!- Title Page ->
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title">Get in Touch</h2>
+                    <h3 class="title-description">We’re currently accepting new client projects. We look forward to serving you.</h3>
                 </div>
             </div>
         </div>
+        <!-- End Title Page ->
+        
+        <!-- Contact Form ->
+        <div class="row">
+        	<div class="span9">
+            
+            	<form id="contact-form" class="contact-form" action="#">
+                	<p class="contact-name">
+                		<input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
+                    </p>
+                    <p class="contact-email">
+                    	<input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
+                    </p>
+                    <p class="contact-message">
+                    	<textarea id="contact_message" placeholder="Your Message" name="message" rows="15" cols="40"></textarea>
+                    </p>
+                    <p class="contact-submit">
+                    	<a id="contact-submit" class="submit" href="#">Send Your Email</a>
+                    </p>
+                    
+                    <div id="response">
+                    
+                    </div>
+                </form>
+             
+            </div>
+            
+            <div class="span3">
+            	<div class="contact-details">
+            		<h3>Contact Details</h3>
+                    <ul>
+                        <li><a href="#">anirudhastark@yahoo.com</a></li>
+                        <li>(916) 375-2525</li>
+                        <li>
+                            Brushed Studio
+                            <br>
+                            5240 Vanish Island. 105
+                            <br>
+                            Unknow
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Contact Form ->
     </div>
-    <!-- /Call to Action -->
+    </div-->
+    <!-- End Contact Section -->
 
-    <!-- Doc -->
-    <div id="contact" class="map">
-        <div class="container">
-        <br /><br />
-            <img class="img-portfolio img-responsive" src="img/write.jpg">
-            <h2 align="center"><a href="http://goo.gl/Wf4Z1S" target="_blank"><i class="fa fa-pencil">  Write to me</i></a></h2>
+    <!-- Twitter Feed -->
+    <div id="twitter-feed" class="page-moving">
+    	<div class="container">
+        	<div class="row">
+                <div class="span12">
+                    <h1><small>anistark</small></h1><h2> Profiles Hub:</h2><br />
+                    <a href="http://about.me/kumaranirudha" class="btn btn-lg btn-default">About Me</a><br /><br />
+                    <a href="https://mozillians.org/en-US/u/anistark/" class="btn btn-lg btn-primary">Mozillian</a>
+                    <a href="https://developer.mozilla.org/en-US/profiles/anistark" class="btn btn-lg btn-primary">MDN</a>
+                    <a href="https://wiki.mozilla.org/User:Anistark" class="btn btn-lg btn-primary">Mozilla Wiki</a>
+                    <a href="https://anistark.makes.org/" class="btn btn-lg btn-primary">Mozilla WebMaker</a>
+                    <a href="https://www.transifex.com/accounts/profile/anistark/" class="btn btn-lg btn-primary">Transfix</a>
+                    <a href="https://support.mozilla.org/en-US/user/992280" class="btn btn-lg btn-primary">Mozillia Support</a><br /><br />
+                    <a href="https://wiki.python.org/moin/KumarAnirudha" class="btn btn-lg btn-primary">Python Wiki</a>
+                    <a href="https://en.wikipedia.org/wiki/User:Anistark" class="btn btn-lg btn-primary">Wikipedia</a>
+                    <a href="http://www.quora.com/Kumar-Anirudha-1" class="btn btn-lg btn-primary">Quora</a>
+                    <a href="http://www.hackerearth.com/users/anistark/" class="btn btn-lg btn-primary">HackerEarth</a><br /><br />
+                </div>
+            </div>
         </div>
     </div>
-    <!-- /Doc -->
+    <!-- End Twitter Feed -->
+
+    <!-- Socialize -->
+    <div id="social-area" class="page">
+    	<div class="container">
+        	<div class="row">
+                <h3><a href="#"><span class="font-icon-edit-check"> Write to me</span></a></h3
+                <div class="span12">
+                    <hr />
+                    <h1><small>Find me here</small></h1>
+                    <nav id="social">
+                        <ul>
+                            <li><a href="https://twitter.com/kranirudha" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+                            <li><a href="https://github.com/anistark" title="Follow Me on Github" target="_blank"><span class="font-icon-social-github"></span></a></li>
+                            <li><a href="https://www.facebook.com/anirudhjoy" title="Follow Me on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
+                            <li><a href="https://www.google.com/+KumarAnirudha" title="Follow Me on Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
+                            <li><a href="http://www.linkedin.com/pub/kumar-anirudha/26/27/50a" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
+                            <li><a href="http://anirudhastark.wordpress.com/" title="Follow Me on Wordpress" target="_blank"><span class="font-icon-social-wordpress"></span></a></li><br /><br />
+                            <li><a href="mailto:anirudhastark@yahoo.com" title="Mail Me" target="_blank"><span class="font-icon-email_2"></span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Socialize -->
 
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                    <h3> Find Me Here </h3>
-                    <ul class="list-inline">
-                        <li><a href="https://www.facebook.com/anirudhjoy" target="_blank"><i class="fa fa-facebook fa-3x"></i></a>
-                        </li>
-                        <li><a href="https://twitter.com/kranirudha" target="_blank"><i class="fa fa-twitter fa-3x"></i></a>
-                        </li>
-                        <li><a href="https://www.google.com/+KumarAnirudha" target="_blank"><i class="fa fa-google-plus-square fa-3x"></i></a>
-                        </li>
-                        <li><a href="https://foursquare.com/kranirudha" target="_blank"><i class="fa fa-foursquare fa-3x"></i></a>
-                        </li>
-                        <li><a href="http://instagram.com/anistark" target="_blank"><i class="fa fa-instagram fa-3x"></i></a>
-                        </li>
-                        <li><a href="http://www.linkedin.com/pub/kumar-anirudha/26/27/50a" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
-                        </li>
-                        <li><a href="https://github.com/anistark" target="_blank"><i class="fa fa-github fa-3x"></i></a>
-                        </li>
-                        <br /><br />
-                        <li><a href="mailto:anirudhastark@yahoo.com"><i class="fa fa-envelope fa-3x"></i></a>
-                        </li>
-                    </ul>
-                    <div class="top-scroll">
-                        <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
-                    </div>
-                    <hr>
-                    <p><img src="img/copyleft.png" width="18.5px" height="auto"> Anirudha</p>
-                </div>
-            </div>
-            <div align="right">
-                <!-- Counter Code START --><a href="http://www.e-zeeinternet.com/" target="_blank"><img src="http://www.e-zeeinternet.com/count.php?page=1049302&style=odometer&nbdigits=9&reloads=1" alt="HTML Hit Counter" border="0" ></a><br><a href="http://www.e-zeeinternet.com/" title="HTML Hit Counter" target="_blank" style="font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; text-decoration: none;"></a><!-- Counter Code END -->
-            </div>
-        </div>
+    	<p class="credits"><img src="_include/img/copyleft.png" alt="COPYLEFT " width="31px"> AniStark</p>
+        <!-- Counter Code START --><a href="http://www.e-zeeinternet.com/" target="_blank"><img src="http://www.e-zeeinternet.com/count.php?page=1049302&style=odometer&nbdigits=9&reloads=1" alt="HTML Hit Counter" border="0" ></a><br><a href="http://www.e-zeeinternet.com/" title="HTML Hit Counter" target="_blank" style="font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; text-decoration: none;"></a><!-- Counter Code END -->
     </footer>
-    <!-- /Footer -->
+    <!-- End Footer -->
 
-    <div class="get">
-        <div class="arc">
-            <span class="text">JavaScript</span>
-            <input type="hidden" class="percent" value="75" />
-            <input type="hidden" class="color" value="#D7D159" />
-        </div>
-        <div class="arc">
-            <span class="text">CSS3</span>
-            <input type="hidden" class="percent" value="90" />
-            <input type="hidden" class="color" value="#A84A59" />
-        </div>
-        <div class="arc">
-            <span class="text">HTML5</span>
-            <input type="hidden" class="percent" value="85" />
-            <input type="hidden" class="color" value="#D1D8A6" />
-        </div>
-        <div class="arc">
-            <span class="text">Python</span>
-            <input type="hidden" class="percent" value="54" />
-            <input type="hidden" class="color" value="#612193" />
-        </div>
-        <div class="arc">
-            <span class="text">Android</span>
-            <input type="hidden" class="percent" value="75" />
-            <input type="hidden" class="color" value="#81D816" />
-        </div>
-        <div class="arc">
-            <span class="text">PHP</span>
-            <input type="hidden" class="percent" value="73" />
-            <input type="hidden" class="color" value="#8A4B1B" />
-        </div>
-        <div class="arc">
-            <span class="text">MySQL</span>
-            <input type="hidden" class="percent" value="55" />
-            <input type="hidden" class="color" value="#123242" />
-        </div>
-    </div>
-    
+    <!-- Back To Top -->
+    <a id="back-to-top" href="#">
+    	<i class="font-icon-arrow-simple-up"></i>
+    </a>
+    <!-- End Back to Top -->
 
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/jquery.js" type="text/javascript"></script>
-    <script src="js/raphael.js" type="text/javascript"></script>
-    <script src="js/init.js" type="text/javascript"></script>
-    <script type="text/javascript" src="js/misc.js"></script>
+
+    <!-- Js -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+    <script src="_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+    <script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+    <script src="_include/js/waypoints.js"></script> <!-- WayPoints -->
+    <script src="_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+    <script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+    <script src="_include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+    <script src="_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
+    <script src="_include/js/jquery.tweet.js"></script> <!-- Tweet -->
+    <script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+    <script src="_include/js/main.js"></script> <!-- Default JS -->
+    <!-- End Js -->
 
 </body>
 </html>
