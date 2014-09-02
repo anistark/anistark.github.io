@@ -229,33 +229,27 @@ a:hover {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
-/* To Navigation Style */
-.anitech-top {
-  background: #2e2e2e;
-  background: rgba(85, 85, 85, 0.6);
-  text-transform: uppercase;
-  width: 100%;
-  font-size: 0.69em;
-  line-height: 2.2;
-}
-
-.anitech-top a {
-  padding: 0 0em;
-  letter-spacing: 0.12em;
-  color: #244ef3;
-  display: inline-block;
-}
-
-.anitech-top a:hover {
-  background: rgba(255,255,255,0.95);
-  color: #24f34e;
-}
-
-.anitech-top span.right {
-  float: right;
-}
-
-.anitech-top span.right a {
-  float: left;
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
   display: block;
+  padding: 7px;
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background: rgba(54, 155, 250, 0.25);
+  font-weight: bold;
+  font-size: 13px;
+  color: #000;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+.back:hover {
+  color: black;
+  background: rgba(85, 250, 185, 0.5);
 }
