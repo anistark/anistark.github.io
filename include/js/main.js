@@ -80,7 +80,8 @@ BRUSHED.slider = function(){
 											{image : 'include/img/sliderimages/image01.jpg', title : '<div class="slide-content">AniStark</div>', thumb : '', url : ''},
 											{image : 'include/img/sliderimages/image02.jpg', title : '<div class="slide-content">AniStark</div>', thumb : '', url : ''},
 											{image : 'include/img/sliderimages/image03.jpg', title : '<div class="slide-content">AniStark</div>', thumb : '', url : ''},
-											{image : 'include/img/sliderimages/image04.jpg', title : '<div class="slide-content">AniStark</div>', thumb : '', url : ''}  
+											{image : 'include/img/sliderimages/image04.jpg', title : '<div class="slide-content">AniStark</div>', thumb : '', url : ''},
+											{image : 'include/img/sliderimages/image05.jpg', title : '<div class="slide-content">AniStark</div>', thumb : '', url : ''}  
 									],
 									
 		// Theme Options			   
